@@ -4,7 +4,7 @@
     "language": "zh-CN",
     "description": "家庭常见病症自我诊疗手册，涵盖内科、外科、皮肤、特殊人群及户外急救",
     "template": "handbook",
-    "current_version": "0.1.0",
+    "current_version": "1.1.0",
     "published_versions": []
   },
   "publishing": {
