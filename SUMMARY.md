@@ -33,4 +33,6 @@
 - [6.2 心肺复苏（CPR）与AED使用](part6/sections/6.2.md)
 - [6.3 严重出血控制与止血带使用](part6/sections/6.3.md)
 - [6.4 常见意外急救：休克、癫痫、溺水、触电](part6/sections/6.4.md)
+- [6.5 烧烫伤急救处理](part6/sections/6.5.md)
+- [6.6 眼部急症处理](part6/sections/6.6.md)
 
