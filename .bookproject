@@ -1,0 +1,46 @@
+{
+  "project": {
+    "name": "常见病症及治疗指南",
+    "language": "zh-CN",
+    "description": "家庭常见病症自我诊疗手册，涵盖内科、外科、皮肤、特殊人群及户外急救",
+    "template": "handbook",
+    "current_version": "0.1.0",
+    "published_versions": []
+  },
+  "publishing": {
+    "target_platform": "gitbook",
+    "publish_dir": "docs",
+    "auto_preview": false,
+    "preview_port": 4000
+  },
+  "preferences": {
+    "chapter_min_words": 2000,
+    "chapter_max_words": 5000,
+    "tone": "professional",
+    "code_style": "dark",
+    "include_exercises": false,
+    "include_summary": true,
+    "include_further_reading": false,
+    "include_navigation": true
+  },
+  "iron_rules": [
+    "每章完成后必须立即保存进度",
+    "所有用药建议必须标注禁忌人群和就医指征",
+    "药品名称使用通用名，括号标注常见商品名",
+    "必须区分成人/儿童/老人/孕妇用药差异",
+    "每篇文章底部必须有上一篇/下一篇导航链接",
+    "⚠️ 声明：本书仅供参考，不能替代专业医疗诊断"
+  ],
+  "quality_checks": {
+    "max_code_block_lines": 0,
+    "require_alt_text": true,
+    "check_broken_links": true,
+    "check_heading_hierarchy": true
+  },
+  "git": {
+    "auto_commit": false,
+    "branch": "main",
+    "auto_tag": true,
+    "commit_template": "docs: v{version} — {summary}"
+  }
+}
